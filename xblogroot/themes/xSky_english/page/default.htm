@@ -1,82 +1,82 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<#XBLOG_LANGUAGE#>" lang="<#XBLOG_LANGUAGE#>">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta http-equiv="Content-Language" content="<#XBLOG_LANGUAGE#>" />
-	<title><#XBLOG_TITLE#>-<#XBLOG_SUB_TITLE#></title>
-	<!-- <link rel="stylesheet" rev="stylesheet" href="<#XBLOG_HOST#>themes/<#XBLOG_THEME#>/style/<#XBLOG_CSS#>.css" type="text/css" media="screen" /> -->
-	<link rel="stylesheet" rev="stylesheet" href="<#XBLOG_HOST#>/themes/<#XBLOG_THEME#>/style/style.css" type="text/css" media="screen" />
-	<link rel="alternate" type="application/rss+xml" href="<#XBLOG_HOST#>/rss.xml" title="<#XBLOG_TITLE#>" />
-	<script language="JavaScript" src="<#XBLOG_HOST#>/script/common.js" type="text/javascript"></script>
-	<script language="JavaScript" type="text/javascript">
-		var str00="<#XBLOG_HOST#>/";
-		var str01="名称或邮箱不能为空";
-		var str02="名称或邮箱格式不对";
-		var str03="留言不能为空或过长";
-		var str06="显示UBB表情>>";
-		var intMaxLen="1000";
-		var strBatchView="";
-		var strBatchInculde="";
-		var strBatchCount="";
-	</script>
-</head>
-<body>
-<div id="page">
-<div id="header">
-<div class="top-links">
-<#CACHE_INCLUDE_NAVBAR#>
-</div>
-<div id="headerimg"><a class="title" href="<#XBLOG_HOST#>"><#XBLOG_NAME#></a> &nbsp;
-<span class="description"><#XBLOG_SUB_NAME#></span> </div></div>
-</hr>
-
-<div id="content" class="narrowcolumn">
-<div class="post cate2 auth1">
-	
-</div>
-	<#template:article_multi#>
-    <div class="navigation">
-    <div class="alignleft">  <a href="/page?page=<#template:pagebar_previous#>">上一页</div>
-    <div class="alignright"> <a href="/page?page=<#template:pagebar_next#>">下一页</div>
-    <div style="CLEAR: both"></div></div>
-</div>
-
-
-<div id="sidebar">
-<ul>
-  <li id="categories-320817111" class="widget widget_categories">
-  <h2 class=widgettitle>分类目录</h2>
-  <ul><#CACHE_INCLUDE_CATALOG#></ul>
-  </li>
-  
-  <li id=meta class="widget widget_meta">
-  <h2 class=widgettitle>功能</h2>
-  <ul><#CACHE_INCLUDE_MISC#></ul>
-  </li>
-  
-  <li id=archives class="widget widget_archive">
-  <h2 class=widgettitle>文章</h2>
-  <ul><#CACHE_INCLUDE_ARCHIVES#></ul></li>
-	
-  <li id=archives class="widget widget_link">
-  <h2 class=widgettitle>链接</h2>
-  <ul><#CACHE_INCLUDE_LINKS#></ul>
-  </li>
-	
-  <LI id=search class="widget widget_search">
-  <FORM method="post" action="<#XBLOG_HOST#>cmd?act=Search">
-  <P style="HEIGHT: 20px"><input type="text" style="WIDTH: 140px" name="edtSearch" id="edtSearch" size="12" /> 
-  <input type="submit" value=">>" name="btnPost" id="btnPost" />
-  </p></form></li>
-  </ul></div>
-
-<hr></hr>
-
-<div id=footer>
-<p>Powered By <a href="http://www.0xsky.com/" title="xSkyBlog">xSkyBlog <#XBLOG_VERSION#></a>
-<br><#XBLOG_COPYRIGHT#>. </p></div></div>
-
-
-<script language="JavaScript" type="text/javascript">$(document).ready(function(){$("p.read-more a").html("\u003Cstrong style=\"font-size:15px;\"\u003E阅读全文...\u003C/strong\u003E")});</script>
-</body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="Content-Language" content="<#XBLOG_LANGUAGE#>" />
+        <title><#XBLOG_TITLE#>-<#XBLOG_SUB_TITLE#></title>
+        <!-- <link rel="stylesheet" rev="stylesheet" href="<#XBLOG_HOST#>themes/<#XBLOG_THEME#>/style/<#XBLOG_CSS#>.css" type="text/css" media="screen" /> -->
+        <link rel="stylesheet" rev="stylesheet" href="<#XBLOG_HOST#>/themes/<#XBLOG_THEME#>/style/style.css" type="text/css" media="screen" />
+        <link rel="alternate" type="application/rss+xml" href="<#XBLOG_HOST#>/rss.xml" title="<#XBLOG_TITLE#>" />
+        <script language="JavaScript" src="<#XBLOG_HOST#>/script/common.js" type="text/javascript"></script>
+        <script language="JavaScript" type="text/javascript">
+            var str00="<#XBLOG_HOST#>/";
+            var str01="名称或邮箱不能为空";
+            var str02="名称或邮箱格式不对";
+            var str03="留言不能为空或过长";
+            var str06="显示UBB表情>>";
+            var intMaxLen="1000";
+            var strBatchView="";
+            var strBatchInculde="";
+            var strBatchCount="";
+            </script>
+    </head>
+    <body>
+        <div id="page">
+            <div id="header">
+                <div class="top-links">
+                    <#CACHE_INCLUDE_NAVBAR#>
+                        </div>
+                <div id="headerimg"><a class="title" href="<#XBLOG_HOST#>"><#XBLOG_NAME#></a> &nbsp;
+                    <span class="description"><#XBLOG_SUB_NAME#></span> </div></div>
+            </hr>
+            
+            <div id="content" class="narrowcolumn">
+                <div class="post cate2 auth1">
+                    
+                </div>
+                <#template:article_multi#>
+                    <div class="navigation">
+                        <div class="alignleft">  <a href="/page?page=<#template:pagebar_previous#>">上一页</div>
+                        <div class="alignright"> <a href="/page?page=<#template:pagebar_next#>">下一页</div>
+                        <div style="CLEAR: both"></div></div>
+                    </div>
+            
+            
+            <div id="sidebar">
+                <ul>
+                    <li id="categories-320817111" class="widget widget_categories">
+                        <h2 class=widgettitle>分类目录</h2>
+                        <ul><#CACHE_INCLUDE_CATALOG#></ul>
+                    </li>
+                    
+                    <li id=meta class="widget widget_meta">
+                        <h2 class=widgettitle>功能</h2>
+                        <ul><#CACHE_INCLUDE_MISC#></ul>
+                    </li>
+                    
+                    <li id=archives class="widget widget_archive">
+                        <h2 class=widgettitle>文章</h2>
+                        <ul><#CACHE_INCLUDE_ARCHIVES#></ul></li>
+                    
+                    <li id=archives class="widget widget_link">
+                        <h2 class=widgettitle>链接</h2>
+                        <ul><#CACHE_INCLUDE_LINKS#></ul>
+                    </li>
+                    
+                    <LI id=search class="widget widget_search">
+                        <FORM method="post" action="<#XBLOG_HOST#>cmd?act=Search">
+                            <P style="HEIGHT: 20px"><input type="text" style="WIDTH: 140px" name="edtSearch" id="edtSearch" size="12" />
+                            <input type="submit" value=">>" name="btnPost" id="btnPost" />
+                            </p></form></li>
+                </ul></div>
+            
+            <hr></hr>
+            
+            <div id=footer>
+                <p>Powered By <a href="http://www.0xsky.com/" title="xSkyBlog">xSkyBlog <#XBLOG_VERSION#></a>
+                <br><#XBLOG_COPYRIGHT#>. </p></div></div>
+        
+        
+        <script language="JavaScript" type="text/javascript">$(document).ready(function(){$("p.read-more a").html("\u003Cstrong style=\"font-size:15px;\"\u003E阅读全文...\u003C/strong\u003E")});</script>
+    </body>
 </html>
