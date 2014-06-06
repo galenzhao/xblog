@@ -21,60 +21,60 @@
 	</script>
 </head>
 <body>
-<DIV id="page">
-<DIV id="header">
-<DIV class="top-links">
+<div id="page">
+<div id="header">
+<div class="top-links">
 <#CACHE_INCLUDE_NAVBAR#>
-</DIV>
-<DIV id="headerimg"><A class="title" href="<#XBLOG_HOST#>"><#XBLOG_NAME#></A> &nbsp; 
-<SPAN class="description"><#XBLOG_SUB_NAME#></SPAN> </DIV></DIV>
-</HR>
+</div>
+<div id="headerimg"><a class="title" href="<#XBLOG_HOST#>"><#XBLOG_NAME#></a> &nbsp;
+<span class="description"><#XBLOG_SUB_NAME#></span> </div></div>
+</hr>
 
-<DIV id="content" class="narrowcolumn">
+<div id="content" class="narrowcolumn">
 <div class="post cate2 auth1">
 	
 </div>
 	<#template:article_multi#>
-    <DIV class="navigation">
-    <DIV class="alignleft">  <A href="/page?page=<#template:pagebar_previous#>">上一页</DIV>
-    <DIV class="alignright"> <A href="/page?page=<#template:pagebar_next#>">下一页</DIV>
-    <DIV style="CLEAR: both"></DIV></DIV>
-</DIV>
+    <div class="navigation">
+    <div class="alignleft">  <a href="/page?page=<#template:pagebar_previous#>">上一页</div>
+    <div class="alignright"> <a href="/page?page=<#template:pagebar_next#>">下一页</div>
+    <div style="CLEAR: both"></div></div>
+</div>
 
 
-<DIV id="sidebar">
-<UL>
-  <LI id="categories-320817111" class="widget widget_categories">
-  <H2 class=widgettitle>分类目录</H2>
-  <UL><#CACHE_INCLUDE_CATALOG#></UL>
-  </LI>
+<div id="sidebar">
+<ul>
+  <li id="categories-320817111" class="widget widget_categories">
+  <h2 class=widgettitle>分类目录</h2>
+  <ul><#CACHE_INCLUDE_CATALOG#></ul>
+  </li>
   
-  <LI id=meta class="widget widget_meta">
-  <H2 class=widgettitle>功能</H2>
-  <UL><#CACHE_INCLUDE_MISC#></UL>
-  </LI>
+  <li id=meta class="widget widget_meta">
+  <h2 class=widgettitle>功能</h2>
+  <ul><#CACHE_INCLUDE_MISC#></ul>
+  </li>
   
-  <LI id=archives class="widget widget_archive">
-  <H2 class=widgettitle>文章</H2>
-  <UL><#CACHE_INCLUDE_ARCHIVES#></UL></LI>
+  <li id=archives class="widget widget_archive">
+  <h2 class=widgettitle>文章</h2>
+  <ul><#CACHE_INCLUDE_ARCHIVES#></ul></li>
 	
-  <LI id=archives class="widget widget_link">
-  <H2 class=widgettitle>链接</H2>
-  <UL><#CACHE_INCLUDE_LINKS#></UL>
-  </LI>
+  <li id=archives class="widget widget_link">
+  <h2 class=widgettitle>链接</h2>
+  <ul><#CACHE_INCLUDE_LINKS#></ul>
+  </li>
 	
   <LI id=search class="widget widget_search">
   <FORM method="post" action="<#XBLOG_HOST#>cmd?act=Search">
   <P style="HEIGHT: 20px"><input type="text" style="WIDTH: 140px" name="edtSearch" id="edtSearch" size="12" /> 
   <input type="submit" value=">>" name="btnPost" id="btnPost" />
-  </P></FORM></LI>
-  </UL></DIV>
+  </p></form></li>
+  </ul></div>
 
-<HR></HR>
+<hr></hr>
 
-<DIV id=footer>
-<P>Powered By <a href="http://www.0xsky.com/" title="xSkyBlog">xSkyBlog <#XBLOG_VERSION#></a> 
-<BR><#XBLOG_COPYRIGHT#>. </P></DIV></DIV>
+<div id=footer>
+<p>Powered By <a href="http://www.0xsky.com/" title="xSkyBlog">xSkyBlog <#XBLOG_VERSION#></a>
+<br><#XBLOG_COPYRIGHT#>. </p></div></div>
 
 
 <script language="JavaScript" type="text/javascript">$(document).ready(function(){$("p.read-more a").html("\u003Cstrong style=\"font-size:15px;\"\u003E阅读全文...\u003C/strong\u003E")});</script>
